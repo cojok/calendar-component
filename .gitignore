@@ -62,3 +62,6 @@ typings/
 
 #phpsotrm
 .idea
+
+#os
+.DS_Store
