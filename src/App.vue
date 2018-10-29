@@ -2,8 +2,9 @@
   <div id="app">
     <!--<img alt="Vue logo" src="./assets/logo.png">-->
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
-    <Day/>
-    <Week/>
+    <!--<Day/>-->
+    <!--<Week/>-->
+    <Month/>
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Day from './components/day/Day.vue'
 import Week from './components/week/Week.vue'
+import Month from './components/month/Month.vue'
 export default {
   name: 'app',
   components: {
     HelloWorld,
     Day,
-    Week
+    Week,
+    Month
   }
 }
 </script>

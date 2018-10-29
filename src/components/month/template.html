@@ -1,0 +1,10 @@
+<div>
+    <span v-for="(names, index) in weeks" :key="index" style="width: 120px; border:1px solid #c2c2c2; margin: 8px; display:inline-block">
+        {{ names }}
+    </span>
+    <div v-for="(weeks, index) in month" :key="index">
+        <span v-for="(days, i) in weeks" :key="i" style="width: 120px; border:1px solid #000; margin: 8px; display:inline-block">
+            {{ days.date.date() }}
+        </span>
+    </div>
+</div>
