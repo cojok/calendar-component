@@ -1,0 +1,44 @@
+.month {
+  $root: &;
+  width: 850px;
+  height: auto;
+  text-align: center;
+
+  &__weeks-name {
+    display: inline-block;
+    width: 14.28571%;
+    //padding: 0 4px;
+    text-align: center;
+  }
+
+  &__weeks {
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+    background: #f8f7fa;
+  }
+
+  &__week-days {
+    display: inline-block;
+    width: 14.28571%;
+    height: 60px;
+    line-height: 60px;
+    //padding: 0 8px;
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  &__past-day {
+    color: #c2c2c2;
+  }
+
+  &__today-day {
+    width: 14.28571%;
+    border-radius: 16px;
+    background: #b670f4;
+    color: #ffffff;
+  }
+}
